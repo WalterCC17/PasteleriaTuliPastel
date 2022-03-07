@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta htttp-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aqui se hace tu pedido</title>
+</head>
+<body>
+
+    <h1>Tuli pastel</h1>
+
+    <p>Direccion: 5ta calle 26-98 de lomas, Guadalajara <br>Tel: 2644881129 </p><hr>
+    <img src="https://i.ibb.co/sVnQCrv/Logotuli.png" alt="Tulipastel" width="150px">
+    <h2>Que postre te vas a llevar :)</h2>
+
+    <form action="pedido.js">
+        <label for="Nombre">Cual es tu nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br><br>
+
+        <label for="tel1">Cual es tu numero de Telefono</label><br>
+	    <input type="tel" id="tel1" name="tel1" placeholder="Telefono" maxlength="10"><br><br>
+
+        <label for="correo1">Cual es tu correo electronico</label><br>
+	    <input type="email" id="correo1" name="correo1" placeholder="Ejemplo@gmail.com"><br><br>
+<hr>
+        <p>Que Postre deseas llevar</p>
+        <select name="Pasteles" id="Pasteles">
+            <option value="Pastel de fresas con crema">Pastel de fresas con crema</option>
+            <option value="Pastel de mango con jalea">Pastel de mango con jalea</option>
+            <option value="Pie de queso con fresas">Pie de queso con fresas</option>
+            <option value="Relampago de manjar">Relampago de manjar</option>
+            <option value="Pie de naranja y majar">Pie de naranja y majar</option>
+            <option value="Pastel de capuchino">Pastel de capuchino</option>
+            <option value="Pastel de tres leches">Pastel de tres leches</option>
+            <option value="Pie de calabaza">Pie de calabaza</option>
+            <option value="Pastelillo de vainilla">Pastelillo de vainilla</option>
+            <option value="Donas con glaseado">Donas con glaseado</option>
+            </select>
+
+        <p>Quieres combinar mas sabores</p>
+        <input type="checkbox" id="Saborfresa" name="Saborfresa" value="Saborfresa">
+        <label for="Saborfresa">Sabor fresa</label>
+        <input type="number" id="sfresacuanto" name="sfresacuanto"><br>
+        <input type="checkbox" id="SaborVainilla" name="SaborVainilla" value="SaborVainilla">
+        <label for="Sabor Vainilla">Sabor Vainilla</label>
+        <input type="number" id="svainillacuanto" name="svainillacuanto"><br>
+        <input type="checkbox" id="SaborMoraarandanos" name="SaborMorasarandanos" value="SaborMorasarandanos">
+        <label for="SaborMorasarandanos">Sabor Moras y arandanos</label>
+        <input type="number" id="smacuanto" name="smacuanto"><br>
+
+
+
+        <p>Deseas ponerle algun adorno?</p>
+        <input type="checkbox" id="espumillas" name="espumillas" value="espumillas">
+        <label for="espumillas">Espumillas</label>
+        <input type="number" id="espumillascuanto" name="espumillascuanto"><br>
+        <input type="checkbox" id="Galleta" name="Galleta" value="Galleta">
+        <label for="Galleta">Galleta</label>
+        <input type="number" id="galletascuanto" name="galletascuanto"><br>
+        <input type="checkbox" id="Corazones de fondant" name="Corazones de fondant" value="Corazones de fondant">
+        <label for="Corazones de fondant">Corazones de fondant</label>
+        <input type="number" id="corazonescuanto" name="corazonescuanto"><br>
+        <input type="checkbox" id="Fresas con chocolate" name="Fresas con chocolate" value="Fresas con chocolate">
+        <label for="Fresas con chocolate">Fresas con chocolate</label>
+        <input type="number" id="fchococuanto" name="fchococuanto"><br>
+        <input type="checkbox" id="Frutas troplicales" name="Frutas troplicales" value="Frutas troplicales">
+        <label for="Frutas troplicales">Frutas troplicales</label>
+        <input type="number" id="frutascuanto" name="frutascuanto"><br>
+        <input type="checkbox" id="Anicillo" name="Anicillo" value="Anicillo">
+        <label for="Anicillo">Anicillo</label>
+        <input type="number" id="anicillocuanto" name="anicillocuanto"><br>
+
+
+    </form>
+
+    <p>Resumen de pedido</p>
+<hr>
+<p>
+
+
+</p>
+
+<hr>
+
+</body>
+</html>
